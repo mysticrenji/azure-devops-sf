@@ -1,0 +1,5 @@
+sf_name        = "sfclusterstagingv2"
+sf_rg_name     = "terraform-k8s-kubeadm"
+location       = "West Europe"
+admin_username = "ubuntu"
+admin_password = "nomadiclife!1234"

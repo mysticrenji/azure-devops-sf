@@ -9,3 +9,9 @@ variable "organizationname" {
 variable "project_description" {
   default = "ServiceFabric project"
 }
+
+variable "sf_name" {}
+variable "sf_rg_name" {}
+variable "location" {}
+variable "admin_username" {}
+variable "admin_ password" {}
