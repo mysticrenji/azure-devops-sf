@@ -36,3 +36,12 @@ export ARM_TENANT_ID=
 export ARM_CLIENT_SECRET=
 
 ```
+
+## Terraform Execution
+Execute the Terraform commands in below order
+```
+terraform init
+terraform fmt
+terraform plan -var-file=staging.tfvars
+terraform apply -var-file=staging.tfvars
+```
