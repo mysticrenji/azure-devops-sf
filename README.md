@@ -27,7 +27,7 @@ STORAGE_ACCOUNT_NAME=terraformblobstoragedev
 CONTAINER_NAME=tfstate
 LOCATION=westus2
 ```
-### 3. Exporting environment variables of SP for ARM authentication
+### 4. Exporting environment variables of SP for ARM authentication
 Export the SP credentials that you created in the previous step (2) into shell, so that Terraform automatically reads the Environment variables and use it authenticate with Azure Resource Manager (ARM)
 ```
 export ARM_CLIENT_ID=
